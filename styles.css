@@ -1,0 +1,48 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: darkmagenta;
+  /* color: rgb(201, 146, 249); */
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 30px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-container p {
+  width: 50%;
+  height: 100%;
+}
+
+div.tooltip {
+  position: absolute;
+  font-family: "Nunito Sans";
+  background-color: lightgray;
+  max-width: 230px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+/* body {
+  background-color: rgba(0, 0, 0, 0.85);
+} */
+
+p {
+  color: black;
+}
+
+.agetext{
+  padding-right: 50px;
+}
